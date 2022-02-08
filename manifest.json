@@ -1,0 +1,10 @@
+{
+      "name": "Save Idea",
+      "description": "Learn on the go and save as you go!",
+      "version": "1.0",
+      "manifest_version": 3, 
+      "icons": {
+            "16": "notes.ico"
+      }
+      
+      }

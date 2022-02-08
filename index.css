@@ -1,0 +1,109 @@
+* 
+{ 
+      padding: 0;
+      margin: 0;
+}
+
+body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 80%;
+}
+
+#container{
+      border: 1px solid rgb(196, 191, 191);
+      border-radius: 7px;
+      padding: 5%;
+      max-width: 450px;
+      margin: auto auto;
+      margin-top: 5%;
+}
+
+#container #note_list{ 
+      margin-bottom: 2%;
+}
+
+ul {
+      margin-top: 10%;
+}
+
+ul li{
+     list-style: none;
+     padding: 10px;
+     margin-bottom: 4px;
+     border-left: 2px solid orange;
+}
+
+/* ul li:hover {
+      cursor: grab;
+} */
+
+ul li h4 {
+      margin-bottom: 2%;
+}
+
+/* Styling Our New Notes Section */
+
+#newNote, #edit{ 
+      margin-top: 10%;
+}
+
+#newNote .form-control, #edit .form-control  {
+      padding: 0 10px;
+      margin-top: 8%;
+}
+
+#noteList h2 {
+      width: 0;
+}
+
+input[type="search"] {
+      width: 40%;
+      outline: none;
+      border-top: 0;
+      border-right: 0;
+      border-left: 0;
+      float: right;
+      margin-top: 0;
+}
+
+input[type='text'] {
+      outline: none;
+      border-top: 0;
+      border-right: 0;
+      border-left: 0;
+      width: 100%;
+      margin-top: 3%;
+}
+
+label {
+      font-size: 15px;
+}
+
+em{ 
+      font-size: 25px;
+      color: gray;
+}
+
+.btn {
+      margin-top: 7%;
+      margin-left: 3%;
+      padding: 7px;
+      background-color: rgb(241, 118, 36);
+      border: none;
+      color: white;
+      border-radius: 3px;
+      font-size: 14px;
+      cursor: pointer;
+      width: 45%;
+}
+
+#noteList .btn { 
+      width: 100%;
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 70px;
+}
+
+/* styling to hide elements that hold the class -- ".hide" */
+.hide {
+      display: none;
+}

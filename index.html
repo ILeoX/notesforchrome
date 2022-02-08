@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      
+       
+      <div id="container">
+            <div id="noteList">
+                  <h2> Notes </h2> <span> <input id="search" type="search" placeholder="search notes..."></span>
+                        <ul id="noteItems">
+
+                              <!-- <li class="note_item">
+                                    <h5>Blockchain</h5>
+                                    <span> The help of blockchain in xyz</span>
+                              </li>
+
+                              <li class="note_item">
+                                    <h5>Cooking</h5>
+                                    <span> Recipe for xyz</span>
+                              </li>
+
+                              <li class="note_item">
+                                    <h5>Writing</h5>
+                                    <span>Help for xyz</span>
+                              </li>
+
+                              <li class="note_item">
+                                    <h5>Productivity</h5>
+                                    <span>How to manage time more effectively</span>
+                              </li> -->
+
+                              <!-- Will be populated dynamically from localStorage using javascript code::: Everything above is a comment-->
+ 
+                        </ul>
+                  
+                        <button class="btn" id="addNew"> Add New </button>
+            </div>
+
+            <!-- End of Note Section n-->
+
+
+            <div id="newNote" class="hide">
+                  <h2> New Note </h2>
+                  <form action="#">
+                        <div class="form-control"> 
+                              <label for="title"> Topic of interest </label>
+                              <input id="topic" type="text"/>
+                        </div>
+                        
+                        <div class="form-control">
+                              <label for="title"> Description </label>
+                              <input id="description" type="text"/>
+                        </div>
+      
+                        <button class="btn" id="save"> Save </button>
+      
+                  </form>
+            </div>
+            
+
+
+            <div id="edit" class="hide">
+                  <h2> Edit Note </h2>
+                  <form action="#">
+                        <div class="form-control"> 
+                              <label for="title"> Topic of interest </label>
+                              <input id="editTopic" type="text"/>
+                        </div>
+                        
+                        <div class="form-control">
+                              <label for="title"> Description </label>
+                              <input id="editDescription" type="text"/>
+                        </div>
+      
+                        <button class="btn" id="editBtn"> Save Edit</button>
+                        <button class="btn" id="cancelEditBtn"> Cancel</button>
+      
+                  </form>
+            </div>
+      </div>
+
+      <script src="index.js"></script>
+</body>
+</html>
